@@ -29,6 +29,7 @@ common:
           name: it-dep-secret
           tag:  0.0.2
         tiller:
+          registry: docker.io
           name: helmpack/tiller
           tag: v2.12.3
       secret:
